@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    min-height: 100vh;
+    background: rgb(241,214,238);
+background: linear-gradient(90deg, rgba(241,214,238,1) 2%, rgba(199,132,230,1) 100%);
+justify-content: center;
+}
+#yazilar{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#yazilar > :nth-child(1){
+    font-size: 30px;
+    margin-top: 10px;
+}
+#yazilar > :nth-child(2){
+    color: white;
+    margin-top: 10px;
+    font-size: 180px;
+    margin-left: 1800px;
+}
+#yazilar > :nth-child(3){
+    color: white;
+    margin-top: -10px;
+    font-size: 120px;
+    margin-left: 100px;
+}
+#yazilar > :nth-child(4){
+    color: white;
+    margin-top: -10px;
+    font-size: 100px;
+    font-weight: 10;
+    margin-left: 100px;
+}
+#yazilar > :nth-child(5){
+    color: white;
+    margin-top: 20px;
+    font-size: 250px;
+    font-family: 'Hedvig Letters Serif', serif;
+    margin-left: 100px;
+}
+#yazilar > :nth-child(6){
+    font-family: 'Allura', cursive;
+    margin-top: -70px;
+    font-size: 180px;
+    margin-left: 100px;
+}
+#yazilar > :nth-child(8){
+    color: white;
+    margin-top: 20px;
+    font-size: 40px;
+    margin-left: 100px;
+}
+button{
+    font-family: 'Hedvig Letters Serif', serif;
+    width: 380px;
+    height: 110px;
+    margin-top: 100px;
+    margin-left: 950px;
+    font-size: 50px;
+    color: white;
+    border: none;
+    background-color: rgb(36, 36, 36);
+}

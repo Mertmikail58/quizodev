@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    background: url(images/istockphoto-1353659872-612x612.jpg)no-repeat center/cover ;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+header{
+    text-align: center;
+    font-size: 65px;
+}
+header > :nth-child(1){
+    color: white;
+}
+#kutu{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    
+}
+#kutu > div{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 50px;
+    height: 100px;
+    width: 100px;
+    background-color: orange;
+}
+#kutu2{
+    display: flex;
+    gap: 70px;
+    font-weight: bolder;
+    color: white;
+}
+button{
+    margin-top: 50px;
+    width: 160px;
+    height: 45px;
+    background-color: black;
+    color: white;
+}

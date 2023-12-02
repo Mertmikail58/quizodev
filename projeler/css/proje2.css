@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    background-color:burlywood ;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 600px;
+    width: 400px;
+}
+#resim1{
+    width: 250px;
+    margin-top: 250px;
+    margin-left: -300px;
+}
+#resim2{
+    width: 60px;
+    margin-top: -500px;
+    margin-left: -180px;
+}
+div > #yazilar{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+#yazilar > :nth-child(1){
+    width: 180px;
+    margin-top: -250px;
+    text-align: center;
+    font-weight: 10;
+    color: burlywood;
+    font-size: 50px;
+}
+#yazilar > :nth-child(2){
+    width: 300px;
+    text-align: center;
+    font-size: 12px;
+}
+#yazilar > :nth-child(3){
+    width: 300px;
+    color: burlywood;
+    text-align: center;
+    font-size: 12px;
+}
